@@ -1,0 +1,128 @@
+* {
+    margin: 40;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: linear-gradient(270deg, #87EFF6 0%, #FFFFFF 100%);
+    width: 1440;
+    height: 800;
+    align-items: center;
+
+}
+
+.container {
+    width: 1440;
+    height: 800;
+    align-items: center;
+    
+
+    & .header {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+
+        & .nav {
+            display: flex;
+            gap: 50px;
+           
+            & a{
+                color: black;
+                justify-content: end;
+                flex-direction: row;
+
+            }
+           
+        }
+
+    }
+
+    & .main {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+
+        & .lado-esquerdo {
+            width: 604px;
+            height: 328;
+            gap: 58px;
+            display: flex;
+            flex-direction: column;
+
+            & .p1 {
+
+                font-weight: 600;
+                font-size: 24px;
+                color: red;
+
+            }
+
+            & .p2 {
+                display: flex;
+                flex-wrap: wrap;
+                font-weight: 800;
+                font-size: 30px;
+
+
+
+            }
+
+            & .p3 {
+                font-weight: 400;
+                font-size: 18px;
+
+            }
+
+            & .btns {
+                flex-direction: row;
+                display: flex;
+                gap: 16px;
+                
+
+
+                & .btn1 {
+                    & a{
+                        color: black;
+                        width: 201;
+                        height: 55;
+                        padding-top: 14px;
+                        padding-right: 20px;
+                        padding-bottom: 14px;
+                        padding-left: 20px;
+                        gap: 10px;
+                        border-radius: 16px;
+                        background: #4ABBC2;
+                        
+                    }
+
+                }
+
+                & .btn2 {
+                    & a{
+                        color: black;
+                        padding-top: 14px;
+                        padding-right: 20px;
+                        padding-bottom: 14px;
+                        padding-left: 20px;
+                        border-radius: 16px;
+                        border-width: 2px;
+                        width: 163;
+                        height: 55;
+                        gap: 10px;
+                        border: 2px solid #4ABBC2
+
+
+                    }
+                }
+
+            }
+
+
+        }
+
+    }
+}
